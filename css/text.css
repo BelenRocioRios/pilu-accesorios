@@ -14,7 +14,7 @@ footer {
     padding: 100px 0px 30px;
 }
 
-.row {
+.row-footer {
     width: 100%;
     margin: auto;
     display: flex;
@@ -23,7 +23,7 @@ footer {
     justify-content: center;
 }
 
-.col {
+.col-footer {
     flex-basis: 25%;
     padding: 10px;
 
@@ -60,4 +60,39 @@ svg:hover{
 
 ul li a:hover{
     color: black;
+}
+
+.img-catalogo{
+    width: 100%;
+    height: 280px;
+}
+
+.img-catalogo .col-md-3{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+
+#galeria .giftcard{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria img{
+    height: 600px;
+    width: 100%;
+}
+
+#galeria img:hover{
+border: 5px solid #f7f7f7;
+}
+
+
+.formulario{
+    padding: 40px;
+}
+
+.contacto{
+ background-image: url(../img/mariposas.png);
+   
 }

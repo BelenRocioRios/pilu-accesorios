@@ -17,62 +17,135 @@
 <body>
 
 
-  <header></header>
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="./img/logo.png" alt="logo" width="150px">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <header class="container-header">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/logo.png" alt="logo" width="150px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="bijou.html">bijou</a></li>
+                <li><a class="dropdown-item" href="complementos.html">complementos</a></li>
+                <li><a class="dropdown-item" href="pañuelos.html">pañuelos</a></li>
+                <li><a class="dropdown-item" href="pelo.html">pelo</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="productos.html">ver todo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cuenta.html">cuenta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="giftcard.html">gift card</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/img carrusel/img1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/img carrusel/img2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/img carrusel/img3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
-      <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacto.html">contacto</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              productos
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="bijou.html">bijou</a></li>
-              <li><a class="dropdown-item" href="complementos.html">complementos</a></li>
-              <li><a class="dropdown-item" href="pañuelos.html">pañuelos</a></li>
-              <li><a class="dropdown-item" href="pelo.html">pelo</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">ver todo</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cuenta.html">cuenta</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="giftcard.html">gift card</a>
-          </li>
-        </ul>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+
+          <p class="row align-items-center row-footer ">
+            Collares Trend
+          </p>
+          <img src="./img/new collar.jpg" class="img-thumbnail img-index" alt="...">
+        </div>
+        <div class="col-lg-6">
+          <p class="row-footer align-items-center">
+            Pulseras trend
+          </p>
+          <img src="./img/new pulseras.jpg" class="img-thumbnail img-index" alt="...">
+        </div>
+
 
       </div>
     </div>
-  </nav>
 
+    <div class="container-fluid">
+      <div>
+        <h2 class="row align-items-center row-footer">
+          Sigamos conectados 
+        </h2>
+        <h3 class="row align-items-center row-footer">
+          Recibi promociones antes que nadie 
+        </h3>
+      </div>
+      
 
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+        </div>
+        <div class="col">
+          <input type="email" class="form-control" placeholder="email" aria-label="email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <input type="tel" class="form-control" placeholder="numero" aria-label="numero">
+        </div>
+        <div class="col">
+          <input type="date" class="form-control" placeholder="naciemiento" aria-label="nacimiento">
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-secondary">enviar</button>
+      </div>
+    </div>
 
-
-  <main>
 
   </main>
 
   <footer class="container-footer">
-    <div class="row">
-      <div class="col-md-3 col-lg-2 col-lx-2 mx-auto mt-3">
+    <div class="row row-footer">
+      <div class="col-footer  col-md-3 col-lg-2 col-lx-2 mx-auto mt-3">
         <h4>
           Envios
         </h4>
@@ -152,7 +225,7 @@
           <p>
             copyright 2022 All rights reserved by
             <a href="#" style="text-decoration: none ;">
-              <strong class="text-warning"> Pilu accesorios</strong></a>
+              <strong class="text-black"> Pilu accesorios</strong></a>
           </p>
 
         </div>
@@ -166,6 +239,15 @@
 
 
   </footer>
+
+
+
+
+
+
+
+
+
 
 
 

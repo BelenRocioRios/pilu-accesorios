@@ -2,3 +2,17 @@
     font-size: 19px;
     letter-spacing: 1px;
 }
+
+
+.slide{
+    margin-top: 10px;
+}
+.slide img{
+    height: 98vh;
+}
+
+main>.container-pro{
+    padding: 30px 0;
+}
+
+

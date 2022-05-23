@@ -48,7 +48,7 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">ver todo</a></li>
+              <li><a class="dropdown-item" href="productos.html">ver todo</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -66,13 +66,63 @@
 
 
 
-  <main>
+  <main class="contacto">
+
+    <section class="d-flex justify-content-center align-items-center formulario">
+      <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4   p-4">
+        <div class="mb-4 d-flex justify-content-start align-items-center">
+
+          <h4> <i class="bi bi-chat-left-quote"></i> &nbsp; Contacto</h4>
+        </div>
+        <div class="mb-1">
+          <form id="contacto">
+            <div class="mb-4 d-flex justify-content-between">
+              <div>
+                <label for="nombre"> <i class="bi bi-person-fill"></i> Nombre</label>
+                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="ej: Belen" required>
+                <div class="nombre text-danger "></div>
+              </div>
+              <div>
+                <label for="apellido"> <i class="bi bi-person-bounding-box"></i> Apellido</label>
+                <input type="text" class="form-control" name="apellido" id="apellido" placeholder="ej: Rios"
+                  required>
+                <div class="apellido text-danger"></div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label for="correo"><i class="bi bi-envelope-fill"></i> Correo</label>
+              <input type="email" class="form-control" name="correo" id="correo" placeholder="ej: beluri@mail.com"
+                required>
+              <div class="correo text-danger"></div>
+
+            </div>
+            <div class="mb-4">
+              <label for="sexo"><i class="bi bi-gender-ambiguous"></i> Sexo: </label>
+              <input type="radio" class="form-check-input" name="sexo" value="masculino"> Masculino
+              <input type="radio" class="form-check-input" name="sexo" value="femenino"> Femenino
+              <div class="sexo text-danger"></div>
+            </div>
+            <div class="mb-4">
+              <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i> Mensaje</label>
+              <textarea name="mensaje" id="mensaje" class="form-control" placeholder="ej: hola"></textarea>
+              <div class="mensaje text-danger"></div>
+            </div>
+
+            <div class="mb-2">
+              <button id="botton" class="col-12 btn btn-dark d-flex justify-content-between ">
+                <span>Enviar </span><i id="icono" class="bi bi-cursor-fill "></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
 
   </main>
-
   <footer class="container-footer">
-    <div class="row">
-      <div class="col-md-3 col-lg-2 col-lx-2 mx-auto mt-3">
+    <div class="row row-footer">
+      <div class="col-footer  col-md-3 col-lg-2 col-lx-2 mx-auto mt-3">
         <h4>
           Envios
         </h4>
@@ -152,7 +202,7 @@
           <p>
             copyright 2022 All rights reserved by
             <a href="#" style="text-decoration: none ;">
-              <strong class="text-warning"> Pilu accesorios</strong></a>
+              <strong class="text-black"> Pilu accesorios</strong></a>
           </p>
 
         </div>
