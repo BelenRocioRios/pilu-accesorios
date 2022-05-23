@@ -1,0 +1,49 @@
+#index-new .seccion{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#index-new img{
+    height: 600px;
+    width: 100%;
+}
+
+#index-new img:hover{
+border: 5px solid #f7f7f7;
+}
+
+
+.container-sigamos{
+    width: 100%;
+    padding:25px;
+}
+
+.container-sigamos{
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.subscripcion{
+    width: 100%;
+    padding: 25px;
+}
+
+.form-esp{
+    width:100%;
+    padding: 10px;
+}
+
+.text-subfamilia{
+    width: 100%;
+    padding: 25px;
+
+}
+.text-subfamilia{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.col-md-3{
+    width: 100%;
+    padding: 25px;
+}
